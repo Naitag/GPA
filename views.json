@@ -1,0 +1,27 @@
+[
+  {
+    "idn": "views",
+    "name": "Views",
+    "path": "/views",
+    "component": "ViewsComponent",
+    "showInNav": true,
+    "children": []
+  },
+  {
+    "idn": "home",
+    "name": "Home",
+    "path": "/home",
+    "component": "HomeComponent",
+    "showInNav": true,
+    "children": [
+      {
+        "idn": "documentConfigList",
+        "name": "DocumentConfigList",
+        "path": "/document-config-list",
+        "component": "DocumentConfigList",
+        "showInNav": true,
+        "children": []
+      }
+    ]
+  }
+]
